@@ -11,4 +11,4 @@ buttons  :	Optional - Numeric expression that is the combination of values speci
 
 title    :	Optional - String expression displayed in the title bar of the dialog box. If you omit title, the application name is placed in the title bar.
 helpfile :	Optional - String expression that identifies the Help file to use to provide context-sensitive Help for the dialog box. If helpfile is provided, context must also be provided.
-context	 :    Optional - Numeric expression that is the Help context number assigned to the appropriate Help topic by the Help author. If context is provided, helpfile must also be provided.
+context	 :      Optional - Numeric expression that is the Help context number assigned to the appropriate Help topic by the Help author. If context is provided, helpfile must also be provided.
