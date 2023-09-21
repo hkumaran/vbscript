@@ -1,0 +1,22 @@
+Types of Procedures in VBScript
+A procedure is a block of code that ideally performs a single function. A block of code that processes an input or handles a file is a good example of a function. There are two types of procedures in VBScript.
+1. Sub procedure: The sub-procedure does not return a value.
+2. Function procedure: The function procedure is used if you want to return a value.
+
+----Sub Procedure------
+title="Hello Everyone"
+call saysub(2,title)
+Sub saysub(x,y)
+ msgbox "Welcome",x,y
+end sub	
+
+
+-----Function Procedure ------
+egreturn()
+Function egreturn()
+	egreturn=3
+	call SayFunction(egreturn)
+End Function
+Function SayFunction(x)
+	msgbox "Welcome to Knowinsideout",x
+End Function
